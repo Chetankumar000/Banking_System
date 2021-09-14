@@ -1,0 +1,128 @@
+.container {
+  margin: 1rem 1.7rem;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 1.7rem;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.nav-link {
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.navbar-brand {
+  font-weight: 800;
+}
+
+.navbar-brand,
+a:hover,
+li a.active {
+  color: #FFC069 !important;
+  border-bottom: 2px solid #FFC069;
+}
+
+.footer-padding {
+  padding-bottom: 60px;
+}
+
+.footer {
+  position: sticky;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #FFC069;
+}
+
+.footer p {
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  font-size: 16px;
+  color: #fff;
+}
+
+#home-pg-img {
+  width: 100%;
+  height: 500px;
+}
+
+.row {
+  text-align: center;
+}
+
+.customer-header-row,
+.customer-row {
+  padding: 1rem;
+  background-color: #dff9fb;
+  margin: 10px auto auto;
+  width: 70%;
+}
+
+.customer-header-row,
+.customer-row:hover {
+  background-color: #FFC069;
+}
+
+.first-cust {
+  background-color: #dff9fb;
+}
+
+.btn {
+  background-color: #4aeecd;
+  box-shadow: 1px 2px #666;
+}
+
+.btn:active,
+.btn:focus,
+.btn:focus:active {
+  background-color: #FFC069;
+  box-shadow: 0 2px #666;
+}
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+  box-shadow: none;
+}
+
+.btn:active {
+  background-color: #FFC069;
+  transform: translate(1px, 2px);
+}
+
+.btn:hover {
+  background-color: #FFC069;
+}
+
+.success {
+  text-align: center;
+  margin: 14% auto;
+  background-color: #4aeecd;
+  width: fit-content;
+  padding: 3rem;
+  border-radius: 5px;
+}
+.success-a {
+  text-decoration: none;
+  color: #fff;
+  font-size: large;
+}
+
+.container.about,
+.container.contact {
+  margin-top: 10%;
+  height: 100vh;
+}
+
+.transaction-form {
+  width: 50%;
+  margin: 0 auto;
+}

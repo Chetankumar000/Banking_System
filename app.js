@@ -18,18 +18,16 @@ const app = express();
 
 let PORT = process.env.PORT || 3000;
 
-mongoose.connect("mongodb+srv://admin-chetan:chetan123@cluster0.u9bev.mongodb.net/bankDB?retryWrites=true&w=majority",{useNewUrlParser: true});
-
-// mongoose.connect(
-//   "mongodb+srv://" +
-//     process.env.DB_USER +
-//     ":" +
-//     process.env.DB_PASSWORD +
-//     "@cluster0.u9bev.mongodb.net/bankDB?retryWrites=true&w=majority",
-//   {
-//     useNewUrlParser: true
-//   }
-// );
+mongoose.connect(
+  "mongodb+srv://" +
+    process.env.DB_USER +
+    ":" +
+    process.env.DB_PASSWORD +
+    "@cluster0.u9bev.mongodb.net/bankDB?retryWrites=true&w=majority",
+  {
+    useNewUrlParser: true
+  }
+);
 
 mongoose.connection.on("connected", () =>
   console.log("Successfully connected to Mongodb")
